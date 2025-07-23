@@ -34,7 +34,7 @@ These components are tightly integrated to create seamless RAG workflows, enabli
 - **Modular Architecture**: Easily customizable and extensible components for specific use cases
 
 ## Requirements
-- Python 3.8+
+- Python 3.10.0
 - Jupyter Notebook
 - Required Python packages are listed in `requirements.txt`
 
@@ -59,10 +59,7 @@ pip install -r requirements.txt
    - Run `Faiss.ipynb` to create and query Faiss indexes
 
 ## Development Notes
-- The `1-LANGCHAIN` folder contains core implementation notebooks
-- The `2-LANGCHAIN(building)` folder contains development and building materials
-- New features should be documented in this README.md
-- Always update requirements.txt when adding new dependencies
+The `1-LANGCHAIN` folder contains core implementation notebooks
 
 ## Contributing
 1. Fork the repository
